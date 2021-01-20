@@ -5,4 +5,4 @@
   #  - name: "Include app-github"
   #    include_role:
   #      name: "app-github"
-- import_playbook: ../../tasks/main.yaml
+- import_playbook: ../../tasks/main.yml
