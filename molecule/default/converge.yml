@@ -1,7 +1,10 @@
 ---
 - name: Converge
   hosts: all
-  tasks:
-    - name: "Include app-github"
-      include_role:
-        name: "app-github"
+  #tasks:
+  #  - name: "Include app-github"
+  #    include_role:
+  #      name: "app-github"
+- import_playbook: ../../tasks/main.yaml
+
+
