@@ -1,5 +1,5 @@
 ---
-# tasks file for app-commerce
+# tasks file for app-github
     - name: partie install via Yum
       yum:
         name:

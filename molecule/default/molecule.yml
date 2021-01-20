@@ -4,7 +4,7 @@ dependency:
 driver:
   name: docker
 platforms:
-  - name: app-commerce
+  - name: app-github
     image: "geerlingguy/docker-centos7-ansible:latest"
     command: ""
     volumes:
