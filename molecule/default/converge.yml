@@ -6,5 +6,3 @@
   #    include_role:
   #      name: "app-github"
 - import_playbook: ../../tasks/main.yaml
-
-
